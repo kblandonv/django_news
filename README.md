@@ -8,8 +8,6 @@
 
 ## General Info
  news website built in Django web framework using Python. This a news website project was developed by Kevin Andres Blandon Velez for KeepUp!
- 
-## Screenshots
 
 ## Technologies
 ***
