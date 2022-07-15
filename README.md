@@ -37,4 +37,3 @@ py -m venv venv
 venv\Scripts\activate.bat
 ```
 -
-# django_news
