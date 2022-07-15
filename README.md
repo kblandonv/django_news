@@ -32,8 +32,9 @@ py manage.py runserver
 Or you can also use pip
 You can install the Prerequisites by running the command:
 ```
-pip install -r requirements.txt
 py -m venv venv
 venv\Scripts\activate.bat
+pip install -r requirements.txt
+py manage.py runserver
 ```
 -
