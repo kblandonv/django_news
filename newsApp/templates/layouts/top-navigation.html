@@ -34,7 +34,7 @@
                                 <li><a href="{% url 'login-page' %}">Login</a></li>
                                 {% else %}
                                 <li>
-                                    <a href="#">Howdy, {{user.username}}</a>
+                                    <a href="#">Hello, {{user.username}}</a>
                                     <ul class="dropdown">
                                         <li><a href="{% url 'profile-page' %}">Profile</a></li>
                                         <li><a href="{% url 'new-post' %}">New Post</a></li>
