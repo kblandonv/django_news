@@ -5,7 +5,16 @@ import sys
 
 
 def main():
-    """Run administrative tasks."""
+    """
+    Run administrative tasks.
+
+    This function is responsible for running administrative tasks for the Django project.
+    It sets the Django settings module and executes the command line arguments passed to it.
+
+    Raises:
+        ImportError: If Django is not installed or not available on the PYTHONPATH environment variable.
+
+    """
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'django_news.settings')
     try:
         from django.core.management import execute_from_command_line
