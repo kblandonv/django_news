@@ -122,6 +122,9 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
     ]
 
+# Ruta donde se almacenarán los archivos estáticos recolectados
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
 #MEDIA
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / "media/"
